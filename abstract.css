@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Kdam+Thmor+Pro&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+.navigation-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #fff;
+    padding: 1.2rem 7rem;
+    font-size: 1.2rem;
+}
+.navigation-bar .left .logo:hover{
+    cursor: pointer;
+    color: rgb(163, 162, 162);
+    transition: 0.5s;
+}
+.navigation-bar .left{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.navigation-bar .left .help{
+    font-size: 1.35rem;
+    display: flex;
+    border-left: 2px solid #fff;
+    padding-left: 30px;
+    align-self: center;
+    font-weight: 1200;
+    margin-left: 30px;
+}
+.navigation-bar .left .help:hover{
+    text-decoration: underline #fff;
+    cursor: pointer;
+}
+.navigation-bar .right button{
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 20px;
+    font-weight: 1200;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.navigation-bar .right button:nth-child(2){
+    background-color: #4C5FD5;
+    border: 2px solid #4C5FD5;
+}
+.navigation-bar .right button:nth-child(2):hover{
+    color: #000000;
+    background-color: #fff;
+    border: 2px solid #fff;
+    transition: 0.5s;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    padding: 5rem;
+    background-color: #dadbf1;
+}
+.search-bar .title{
+    margin-top: 15px;
+    font-weight: 550;
+}
+.search-bar .search{
+    padding: 20px;
+    min-width: 40%;
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    border: 1px solid #000000;
+    outline: none;
+    margin-bottom: 35px;
+}
+.controls{
+    display: flex;
+    padding: 200px 100px;
+    justify-content: space-around;
+}
+
+.controls .column{
+    display: flex;
+    gap: 3rem;
+    margin-left: 30px;
+    flex-basis: 600px;
+    flex-direction: column;
+}
+.controls .column:nth-child(2){
+    display: flex;
+    align-items: flex-start;
+    gap: 3em;
+}
+.control-item h2{
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+.control-item p{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+.control-item a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #4C5FD5;
+}
+.ft-main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #fff;
+}
+.ft-main-item ul{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.ft-main-item ul li:nth-last-child(1){
+    margin-bottom: 30px;
+}
+.ft-main-item ul li{
+    margin-top: 10px;
+}
+.ft-main-item ul li:hover{
+    text-decoration: underline #fff;
+}
+.ft-main-item .ft-title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.ft-main-item a{
+    margin-bottom: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&family=Kdam+Thmor+Pro&family=Oswald:wght@300&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Albert Sans', sans-serif;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    max-height: 600vh;
+    overflow: hidden;
+}
+.bar{
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    padding: 15px;
+}
+.bar h2{
+    text-transform: uppercase;
+}
+.first{
+    scroll-snap-align: start;
+    height: 100vh;
+}
+.second{
+    background-color: #00c1b5;
+}
+.third{
+    background-color: #ff651a;
+}
+.fourth{
+    background-color: #ffbe00;
+}
+.fifth{
+    background-color: #1d3fbb;
+}
+.sixth{
+    background-color: #e30512;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    height: 90vh;
+}
+.content{
+    display: flex;
+    margin-bottom: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.content h2{
+    margin-bottom: 25px;
+}
+.content a{
+    margin-bottom: 25px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+}
+.first .content a {
+    color: #ff69b4;
+}
+.first .content span{
+    color: #ff69b4;
+}
+.content span{
+    color: #fff;
+}
+.content p{
+    font-size: 1.5em;
+}
+.content img{
+    margin-bottom: 20px;
+    width: 50%;
+}
+.foot{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 25%;
+    margin-bottom: 12px;
+    padding-right: 25px;
+    flex-direction: column;
+    
+}
+.right a{
+    margin-top: 10px;
+    font-size: 1.4em;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+.right a:hover{
+    color: grey;
+}
+.left{
+    margin-left: 15px;
+    display: flex;
+    flex-basis: 360px;
+    line-height: 32px;
+    align-items: flex-start;
+    margin-top: 20%;
+    place-content: center;
+    flex-direction: column;
+}
+.left span{
+    text-decoration: underline;
+}
+.left h3{
+    text-decoration: underline;
+}
+.left p{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.container{
+    max-height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+::-webkit-scrollbar{
+    width: 0.01px;
+}
