@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="main">
+        <div class="photo">
+            <img src="photo1.webp" id="photo">
+        </div>
+        <div class="menu">
+            <div class="title"><h3>Casual T-shirt</h3></div>
+            <div class="price">$15.00</div>
+            <div class="description"><p>The Nike Pro Dri-FIT T-shirt keeps you cool, dry and free to move during your workout.
+               </p></div>
+                 <div class="sizing">
+                    <div class="size"><p>Size</p></div>
+                    <p id="s" onclick="color(s)">S</p>
+                    <p id="m" onclick="color(m)">M</p>
+                    <p id="l" onclick="color(l)">L</p>
+                    <p id="xl" onclick="color(xl)">XL</p>
+                    <p id="xxl" onclick="color(xxl)">XXL</p>
+                </div>
+                <div class="color">
+                    <p>Color</p>
+                    <label for="black">
+                        <input type="radio"></label>
+                        <span class="color-1" id="black"></span>
+                    <label for="grey">
+                        <input type="radio"></label>
+                        <span class="color-2" id="grey"></span>
+                    <label for="blue">
+                        <input type="radio"></label>
+                        <span class="color-3" id="blue"></span>
+                </div>
+                <div class="quanity"></div>
+                <div class="add">
+                    <input type="button" value="Buy Now">
+                </div>
+
+        </div>
+    </div>
+    <script src="card.js"></script>
+</body>
+</html>
