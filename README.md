@@ -9,7 +9,7 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=mikoa7&theme=calm&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=mikoa7&theme=calm&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-Card project:  https://mikoa7.github.io/portfolio.official/card/card.html
-Books project: https://mikoa7.github.io/portfolio.official/books/books.html
-Bonsai project: https://mikoa7.github.io/portfolio.official/bonsai/bonsai.html
-Abstract project: https://mikoa7.github.io/portfolio.official/Abstract/abstract.html
+Card project:  https://mikoa7.github.io/portfolio.official/card/card.html<br/>
+Books project: https://mikoa7.github.io/portfolio.official/books/books.html<br/>
+Bonsai project: https://mikoa7.github.io/portfolio.official/bonsai/bonsai.html<br/>
+Abstract project: https://mikoa7.github.io/portfolio.official/Abstract/abstract.html<br/>
